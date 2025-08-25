@@ -358,6 +358,12 @@ h3 {
     .download-link {
         margin-top: 0;
         padding-top: 0;
+        display: block;
+        text-align: center;
+    }
+    
+    .download-link a {
+        grid-column: auto;
     }
     
     .github-links {
